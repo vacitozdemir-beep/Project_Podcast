@@ -80,8 +80,8 @@ Bu proje **MIT Lisansı** altında lisanslanmıştır.
 
 ## 👤 İletişim
 
-* **Proje Sahibi:** [Vacit Özdemir / vacitozdemir-beep]
+* **Proje Sahibi:** Vacit Özdemir / vacitozdemir-beep
 * **GitHub:** [@vacitozdemir-beep](https://github.com/vacitozdemir-beep)
-* **E-posta:** [vacitozdemir@gmail.com]
+* **E-posta:** vacitozdemir@gmail.com
 
 ---
