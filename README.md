@@ -1,4 +1,4 @@
-# 🎧 [Podcast Adınız] - Üst Düzey Podcast Web Sitesi
+# 🎧 Bilim-Sanat | Vacit-Ozdemir - Üst Düzey Podcast Web Sitesi
 
 Modern, koyu temalı (**Dark Mode**) ve tamamen **duyarlı** (Responsive) bir podcast web sitesi projesidir. Bu site, podcast bölümlerini tanıtmak, dinleyicileri farklı platformlara yönlendirmek ve marka imajını güçlendirmek için tasarlanmıştır.
 
