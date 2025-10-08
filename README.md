@@ -58,15 +58,6 @@ Bu proje statik bir web sitesi olduğu için herhangi bir sunucu veya derleme ar
 
 ---
 
-## 📂 Proje Yapısı
-podcast-site/
-├── index.html          # Ana Sayfa
-├── episodes.html       # Bölümler Sayfası
-├── about.html          # Hakkımızda Sayfası
-├── contact.html        # İletişim Sayfası
-├── subscribe.html      # Abonelik Sayfası
-├── style.css           # Tüm stiller
-└── README.md           # Bu dosya
 ---
 
 ## 🤝 Katkıda Bulunma
