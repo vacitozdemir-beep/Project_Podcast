@@ -427,6 +427,135 @@ body {
         background-color: #6a3adb;
         color: var(--test-color);
     }
+/* Abonelik Sayfası */
+.centered-title {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.subtitle {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--light-text-color);
+    margin-bottom: 50px;
+}
+/* Platform Izgarası (Grid) */
+.platform-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax(300px, 1fr)); /*3 Sütunlu duyarlı düzen*/
+    gap: 30px;
+    margin-bottom: 70px;
+}
+.platform-card {
+    background-color: var(--secondary-color);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 250px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border: 2px solid transparent; /* Varsayılan border */
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: var(--test-color);
+}
+    .platform-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--primary-color);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    }
+.platform-icon {
+    font-size: 4rem;
+    margin-bottom: 15px;
+    /* İkonun rengi, aşağıdaki platform rengiyle özelleştirilecek. */
+    color: var(--primary-color);
+    transition: color 0.3s;
+}
+    .platform-card h2 {
+        font-size: 1.8rem;
+        margin-top: 0;
+    }
+    .platform-card p {
+        color: var(--light-text-color);
+        margin-bottom: 20px;
+    }
+.platform-btn {
+    background-color: var(--primary-color);
+    color: var(--test-color);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: auto; /* Kartın altına hizalamak için */
+}
+    .platform-btn:hover {
+        background-color: #6a3adb;
+    }
+/* Platformlara Özel Renklendirmeler */
+/* Spotfy */
+.platform-card.spotify .platform-icon {color: #1DB954;}
+.platform-card.spotify .platform-btn {background-color: #1DB954;}
+.platform-card.spotify:hover {border-color: #1DB954;}
+/* Apple */
+.platform-card.apple .platform-icon {color: #A2AAAD;}
+.platform-card.apple .platform-btn {background-color: #A2AAAD;}
+.platform-card.apple:hover {border-color: #A2AAAD;}
+/* Google */
+.platform-card.google .platform-icon {color: #EA4335;}
+.platform-card.google .platform-btn {background-color: #EA4335;}
+.platform-card.google:hover {border-color: #EA4335;}
+/* YouTube */
+.platform-card.youtube .platform-icon {color: #FF0000;}
+.platform-card.youtube .platform-btn {background-color: #FF0000;}
+.platform-card.youtube:hover {border-color: #FF0000;}
+/* RSS */
+.platform-card.rss .platform-icon {color: #FFA500;}
+.platform-card.rss .platform-btn {background-color: #FFA500;}
+.platform-card.rss:hover {border-color: #FFA500;}
+/* Amazon */
+.platform-card.amazon .platform-icon {color: #232F3E;}
+.platform-card.amazon .platform-btn {background-color: #FF9900; color: #232F3E;}
+.platform-card.amazon:hover {border-color: #FF9900;;}
+/* Sosyal Medya Ek Alanı */
+.follow-us {
+    text-align: center;
+    padding: 40px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+    .follow-us h2 {
+        color: var(--test-color);
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+    .social-icon-btn {
+        background-color: var(--background-color);
+        color: var(--light-text-color);
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        transition: background-color 0.3s, color 0.3s;
+    }
+        .social-icon-btn i {
+            margin-right: 8px;
+        }
+    .social-icon-btn:hover {
+        background-color: var(--primary-color);
+        color: var(--test-color);
+    }
 /* Duyarlılık (Responsive) Ayarları */
 @media (max-width: 900px) {
     /* Öne Çıkan Bölüm için düzeni değiştir */
