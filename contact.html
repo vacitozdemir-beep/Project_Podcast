@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | Vacit Ozdemir</title>
+    <!-- CSS - Start -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <!-- CSS - End -->
+</head>
+<body>
+    <!-- Header - Start -->
+    <header class="main-header">
+        <div class="logo">
+            <a href="/">
+                <img src="https://placehold.co/150x150/7950f2/ffffff?text=Logo" alt="Podcast Adı Logo" class="logo-image">
+            </a>
+        </div>
+        <!-- Navbar - Start -->
+         <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Ana Sayfa</a></li>
+                <li><a href="episodes.html">Bölümler</a></li>
+                <li><a href="abaut.html">Hakkımızda</a></li>
+                <li><a href="contact.html">İletişim</a></li>
+            </ul>
+         </nav>
+         <button class="subscribe-btn">Abone Ol</button>
+        <!-- Navbar - End -->
+    </header>
+    <!-- Header - End -->
+    
+    <!-- Main - Start -->
+    <main class="container page-content">
+        <h1 class="page-title">Bize Ulaşın</h1>
+        <div class="contact-grid">
+            <!-- Section - 1 - Start -->
+            <section class="contact-from-container">
+                <h2>Mesaj Gönderin</h2>
+                <form action="#" method="post" class="contact-from">
+                    <div class="form-group">
+                        <label for="name">Adınız Soyadınız: </label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-Posta Adresiniz: </label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Konu: </label>
+                        <select name="subject" id="subject" required>
+                            <option value="">-- Bir Konu Seçin</option>
+                            <option value="quest">Konuk Olmak İstiyorum</option>
+                            <option value="feedback">Geri Bildirim</option>
+                            <option value="sponsorship">Sponsorluk</option>
+                            <option value="other">Diğer</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesajınız: </label>
+                        <textarea name="message" id="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Gönder</button>
+                </form>
+            </section>
+            <!-- Section - 1 - End -->
+            <!-- ------------------------------------------------------------------------------------ -->
+            <!-- Section - 2 - Start -->
+            <section class="contact-info">
+                <h2>Diğer İletişim Yolları</h2>
+                <div class="info-item">
+                    <h3>E-Posta</h3>
+                    <p>Sponsorluk: <a href="mailto:sponsor@bilimsanat.com">sponsor@bilimsanat.com</a></p>
+                    <p>Genel: <a href="mailto:info@bilimsanat.com">info@bilimsanat.com</a></p>
+                </div>
+                <div class="info-item">
+                    <h3>Sosyal Medya</h3>
+                    <p>Bizi tüm platformlarda **@bilimsanat** olarak takip edin</p>
+                    <a href="#" class="social-btn">Instegram</a>
+                    <a href="#" class="social-btn">Twitter</a>
+                </div>
+            </section>
+            <!-- Section - 2 - End -->
+        </div>
+    </main>
+    <!-- Main - End -->
+    
+    <!-- Footer - Start -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Podcast Bilim ve Sanat | Vacit ÖZDEMİR | Tüm Haklar Saklıdır.</p>
+            <div class="social-links">
+                <a href="#">Spotify</a>
+                <a href="#">Apple Podcasts</a>
+                <a href="#">Instegram</a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer - End -->
+</body>
+</html>
